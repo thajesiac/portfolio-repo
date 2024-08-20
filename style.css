@@ -1,7 +1,23 @@
-h1[draggable]{
-    color: red
+* {
+    font-family: "Poppins", sans-serif;
+    color: #1B0412;
+}
+
+
+h1{
+    color: #821752
 }
 
 body {
-    background-color: bisque;
+    background-color: #F8EFD4;
+}
+
+.curriculum {
+    display: flex;
+    flex-direction: column;
+}
+
+.curriculum-photo {
+    float: left;
+    margin: 10px;
 }
